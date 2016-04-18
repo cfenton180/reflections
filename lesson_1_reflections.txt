@@ -1,0 +1,32 @@
+Q: How did viewing a diff between two versions of a file
+help you see the bug that was introduced?
+
+A: Being able to see the two files side by side helped to identify the difference in syntax quickly.  However, as noted in the course, this isn't really practical for large projects.  So, using the FC command made this process much, much easier.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer long term?
+
+A: In the event that there is an issue with a newer build of software, being able to view differences can help identify where the issue is.  Further, having a version control system will allow you to refrain from saving multiple copies of the same source code manually.  
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A: Manually choosing allows you to make more logical choices for each checkpoint.  However, if you aren't disciplined and forget to do so, you might make it harder for others to review your code, or worse, have trouble tracing back in the event of an issue.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: Version control systems need to support multiple files, since most SW projects involve more than one source code files.  
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: You can use git log to view version control for a given repository, and use git diff for comparison of the resulting logs.  
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: I think it gives you peace of mind that you can always go back to a previous commit which includes code set that is known to have work previously.  
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: I'm anxious to try using version control on some of the projects I've already completed as part of my Nanodegree program.  
+
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: A new, generic git repository is created in the current location, which is required if you want to start tracking a new project.  

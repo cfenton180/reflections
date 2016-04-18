@@ -1,0 +1,3 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: A new, generic git repository is created in the current location, which is required if you want to start tracking a new project.  
