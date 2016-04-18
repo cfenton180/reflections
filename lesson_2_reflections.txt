@@ -1,3 +1,8 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 
-A: A new, generic git repository is created in the current location, which is required if you want to start tracking a new project.  
+A: A new, generic git repository is created in the current location, which is required if you want to start adding files to one.  
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: The staging area gives you flexibility in creating repositories, in the sense that you don't need to check in all files in a given directory.  In a large project, the number of source files will be quite daunting.  Staging allows you to logically "stage" only those files which you deem neccessary for a commit.
+
