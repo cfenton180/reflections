@@ -4,7 +4,7 @@ A: A new, generic git repository is created in the current location, which is re
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-A: The staging area gives you flexibility in creating repositories, in the sense that you don't need to check in all files in a given directory.  In a large project, the number of source files will be quite daunting.  Staging allows you to logically "stage" only those files which you deem neccessary for a commit.
+A: The staging area gives you flexibility in creating repositories, in the sense that you don't need to check in all files in a given directory.  In a large project, the number of source files will be quite daunting.  Staging allows you to logically "stage" only those files which you deem necessary for a commit.
 
 Q; How can you use the staging area to make sure you have one commit per logical change?
 
@@ -12,18 +12,16 @@ A: I can place only the files related to a logical stopping point in the staging
 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-A: Branches are most useful when you want to make expirimental changes to your code and don't want to disrupt your primary code base.
+A: Branches are most useful when you want to make experimental changes to your code and don't want to disrupt your primary code base.
 
 Q: How do the diagrams help you visualize the branch structure?
 
-A: The diagreams helped show me what happens to previous code changes/commits when new branches are created.  
+A: The diagrams helped show me what happens to previous code changes/commits when new branches are created.  
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-A: Merging two branches combines all previous commits of two seperate branches into a single, master branch.  The graphs help visualize the commits that have been incorporated, helps visualize parent/child relationships between commits, and identify any deltas that existed between the two branches prior to to merge.  
+A: Merging two branches combines all previous commits of two separate branches into a single, master branch.  The graphs help visualize the commits that have been incorporated, helps visualize parent/child relationships between commits, and identify any deltas that existed between the two branches prior to to merge.  
 
 Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-A: Automatic merging allows developers to press foward without conciously thinking about versioning, however, opens up the possibility of changes by multiple developers being incorrectly joined together or overwritten.  Conversely, while manual merging is more time consuming, it can prevent the aforementioned issues.  
-
-
+A: Automatic merging allows developers to press forward without consciously thinking about versioning, however, opens up the possibility of changes by multiple developers being incorrectly joined together or overwritten.  Conversely, while manual merging is more time consuming, it can prevent the aforementioned issues.  
