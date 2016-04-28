@@ -1,0 +1,4 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+A: As noted in the lesson, a remote is an ideal solution when more than one developer is working on the same project, or you will be adding 
+content from multiple machines.  
