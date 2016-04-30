@@ -26,7 +26,3 @@ A: I think it gives you peace of mind that you can always go back to a previous 
 Q: Now that you have your workspace set up, what do you want to try using Git for?
 
 A: I'm anxious to try using version control on some of the projects I've already completed as part of my Nanodegree program.  
-
-Q: What happens when you initialize a repository? Why do you need to do it?
-
-A: A new, generic git repository is created in the current location, which is required if you want to start tracking a new project.  

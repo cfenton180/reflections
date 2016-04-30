@@ -2,3 +2,11 @@ Q: When would you want to use a remote repository rather than keeping all your w
 
 A: As noted in the lesson, a remote is an ideal solution when more than one developer is working on the same project, or you will be adding 
 content from multiple machines.  
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A: Since inputs to the remote can come from many sources, and may/may not be welcomed changes, it wouldn't be wise to automatically incorporate them into your local repository.  
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A: Forks enable you to reference an existing repository from someone else's github account.  This is useful if you want to collaborate with someone else.  Clones essentially copy a repository so you can work on the code base without distrupting the master branch.  Branches consist of modifications to the same code base.  
